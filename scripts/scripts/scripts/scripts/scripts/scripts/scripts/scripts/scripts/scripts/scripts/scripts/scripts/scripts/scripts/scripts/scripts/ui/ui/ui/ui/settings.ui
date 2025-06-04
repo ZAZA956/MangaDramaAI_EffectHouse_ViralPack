@@ -1,0 +1,22 @@
+<div id="settingsMenu">
+  <h2>Settings</h2>
+  <label>
+    <input type="checkbox" id="toggleSoundEffects" />
+    Enable Sound Effects
+  </label>
+  <label>
+    <input type="checkbox" id="toggleCaptions" />
+    Enable Captions
+  </label>
+</div>
+<script>
+  document.getElementById("toggleSoundEffects").addEventListener("change", function (event) {
+    console.log("Sound effects toggled:", event.target.checked);
+    // Add logic to enable/disable sound effects
+  });
+
+  document.getElementById("toggleCaptions").addEventListener("change", function (event) {
+    console.log("Captions toggled:", event.target.checked);
+    // Add logic to enable/disable captions
+  });
+</script>
