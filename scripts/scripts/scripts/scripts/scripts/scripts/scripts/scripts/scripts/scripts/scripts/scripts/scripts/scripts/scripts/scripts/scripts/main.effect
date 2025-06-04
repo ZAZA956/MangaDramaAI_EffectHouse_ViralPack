@@ -1,0 +1,10 @@
+import { detectEmotion } from "./scripts/emotionDetector.js";
+import { animatePanel } from "./scripts/panelAnimator.js";
+
+async function startMangaGeneration() {
+  console.log("Starting MangaDramaAI Effect House...");
+  const emotion = detectEmotion({ userInput: "Sample input" });
+  animatePanel({ emotion });
+}
+
+startMangaGeneration();
