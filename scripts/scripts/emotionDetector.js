@@ -1,3 +1,4 @@
+import { detectEmotion } from './scripts/emotionDetector.js';
 export function detectEmotion(inputData) {
   console.log("Analyzing input data for emotion detection...");
   // Placeholder for emotion detection logic
