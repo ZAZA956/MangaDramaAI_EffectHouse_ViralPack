@@ -1,0 +1,9 @@
+<button id="audioRecordButton">
+  🎤 Record Audio
+</button>
+<script>
+  document.getElementById("audioRecordButton").addEventListener("click", function () {
+    console.log("Audio recording started...");
+    // Add logic to start recording audio
+  });
+</script>
