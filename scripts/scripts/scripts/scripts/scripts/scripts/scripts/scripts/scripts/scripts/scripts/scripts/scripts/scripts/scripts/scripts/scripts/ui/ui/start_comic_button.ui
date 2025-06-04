@@ -1,0 +1,9 @@
+<button id="startComicButton">
+  📖 Start Manga Creation
+</button>
+<script>
+  document.getElementById("startComicButton").addEventListener("click", function () {
+    console.log("Manga creation started...");
+    // Add logic to initialize manga creation
+  });
+</script>
