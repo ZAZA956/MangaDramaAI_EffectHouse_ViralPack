@@ -1,0 +1,16 @@
+<div id="subtitleDisplay">
+  <p class="subtitle">[Your subtitles will appear here]</p>
+</div>
+<style>
+  #subtitleDisplay {
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+</style>
